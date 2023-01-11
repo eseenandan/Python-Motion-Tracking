@@ -36,7 +36,7 @@ while True:
                 print(id, cx, cy)
                 
                 # enlarges a circle at the ID position on the hand (those little dots are the IDs)
-                if id == 0:
+                if id == 4:
                     cv.circle(img, (cx,cy), 75, (200,5,100), cv.FILLED)
                 
             mpDraw.draw_landmarks(img, handLandMarks, mpHands.HAND_CONNECTIONS)
